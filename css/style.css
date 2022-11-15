@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: aliceblue; 
+    background-color: white;
+    color: black; 
     font-size: 15px;
 }
 
@@ -8,6 +8,44 @@ p {
     color: crimson;
 }
 
+body{
+    overflow-y: scroll; 
+}
+
+.header {
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: SuisseIntlMono,Arial,sans-serif;
+  margin-bottom: 0.9375rem;
+  padding: .5rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: .75rem;
+}
+
+.shop-home {
+    margin: auto;
+    margin-top: 70px;
+    float: left;
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    margin-left: 815px;
+    width: 150px;
+    position: sticky;
+}
 h1 {
     font-size: 40px;
     color: darkkhaki;
