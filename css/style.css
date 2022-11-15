@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: aliceblue; 
+    font-size: 15px;
+}
+
+p {
+    color: crimson;
+}
+
+h1 {
+    font-size: 40px;
+    color: darkkhaki;
+}
