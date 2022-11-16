@@ -1,51 +1,90 @@
+html {
+    overflow: visible;
+    height: 100%;
+}
+
 body {
     background-color: white;
-    color: black; 
-    font-size: 15px;
-}
-
-p {
-    color: crimson;
-}
-
-body{
-    overflow-y: scroll; 
+    overflow-y: scroll;
 }
 
 .header {
-
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  line-height: 1;
-  box-sizing: border-box;
-  outline: 0;
-  background-color: #000;
-  color: #fff;
-  font-family: SuisseIntlMono,Arial,sans-serif;
-  margin-bottom: 0.9375rem;
-  padding: .5rem;
-  text-align: center;
-  text-transform: uppercase;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  font-size: .75rem;
+    line-height: 1;
+    background-color: #000;
+    color: #fff;
+    font-family: SuisseIntlMono, Arial, sans-serif;
+    margin-bottom: 0.9375rem;
+    padding: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: .75rem;
 }
 
-.shop-home {
-    margin: auto;
-    margin-top: 70px;
+.nav-bar {
+    background-color: white;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: -08px;
+    width: 100%;
+    height: 105px;
+}
+
+.home {
+    background-color: white;
+    border: 0;
+    color: black;
+    padding: 10px 30px;
+    margin-top: 40px;
+    margin-left: -50px;
+    text-align: center;
+    font-size: 11px;
     float: left;
-    color: inherit;
-    text-decoration: none;
+}
+
+.search {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 11px;
+    float: right;
+}
+
+.bag {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 35px;
+    font-size: 11px;
+    float: right;
+}
+
+.login {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 11px;
+    float: right;
 }
 
 img {
-    margin-left: 815px;
-    width: 150px;
+    margin-left: 870px;
+    width: 140px;
     position: sticky;
 }
+
 h1 {
     font-size: 40px;
     color: darkkhaki;
