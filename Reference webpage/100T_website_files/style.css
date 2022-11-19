@@ -1,0 +1,105 @@
+#header-text {
+    background-color: black;
+    height: 28px;
+    color: white;
+    width: 100%;
+    position: fixed;
+    font-size: 80%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    top: -20px
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    height: 134px;
+    top: 0px;
+    width: 100%;
+    margin-left: -8px;
+}
+
+#navbar a {
+    margin-top: 60px;
+    color: black;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.main {
+    background-color: white;
+    margin-top: 150px;
+    height: 170px;
+}
+
+.pictures {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures2 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures3 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures4 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures5 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures6 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures7 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures8 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures9 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 640px;
+}
+
+#navbar a:hover {
+    background: white;
+    color: crimson;
+}
+
+#logo {
+    display: grid;
+    margin-top: 0.4%;
+    margin-left: 46%;
+
+}
