@@ -41,7 +41,55 @@
 .pictures {
     display: flex;
     gap: 19px;
-    margin: 170px 15px 30px 15px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures2 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures3 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures4 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures5 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures6 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures7 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures8 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 13px;
+}
+
+.pictures9 {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 640px;
 }
 
 #navbar a:hover {
@@ -50,7 +98,7 @@
 }
 
 #logo {
-    display: flex;
+    display: grid;
     margin-top: 0.4%;
     margin-left: 46%;
 
