@@ -1,91 +1,57 @@
-html {
-    overflow: visible;
-    height: 100%;
-}
-
-body {
-    background-color: white;
-    overflow-y: scroll;
-}
-
-.header {
-    line-height: 1;
-    background-color: #000;
-    color: #fff;
-    font-family: SuisseIntlMono, Arial, sans-serif;
-    margin-bottom: 0.9375rem;
-    padding: .5rem;
-    text-align: center;
-    text-transform: uppercase;
-    position: fixed;
-    top: 0;
-    left: 0;
+#header-text {
+    background-color: black;
+    height: 28px;
+    color: white;
     width: 100%;
-    font-size: .75rem;
+    position: fixed;
+    font-size: 80%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    top: -20px
 }
 
-.nav-bar {
+#navbar {
+    overflow: hidden;
     background-color: white;
     position: fixed;
-    margin-top: 20px;
-    margin-left: -08px;
+    height: 134px;
+    top: 0px;
     width: 100%;
-    height: 105px;
+    margin-left: -8px;
 }
 
-.home {
-    background-color: white;
-    border: 0;
+#navbar a {
+    margin-top: 60px;
     color: black;
-    padding: 10px 30px;
-    margin-top: 40px;
-    margin-left: -50px;
-    text-align: center;
-    font-size: 11px;
-    float: left;
-}
-
-.search {
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 10px 30px;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 11px;
     float: right;
-}
-
-.bag {
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 10px 30px;
+    display: block;
     text-align: center;
-    margin-top: 40px;
-    margin-right: 35px;
-    font-size: 11px;
-    float: right;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-.login {
+
+.main {
     background-color: white;
-    border: none;
-    color: black;
-    padding: 10px 30px;
-    text-align: center;
-    margin-top: 40px;
-    font-size: 11px;
-    float: right;
+    margin-top: 150px;
+    height: 1200px;
 }
 
-img {
-    margin-left: 870px;
-    width: 140px;
-    position: sticky;
+.pictures {
+    display: flex;
+    gap: 19px;
+    margin: 170px 15px 30px 15px;
 }
 
-h1 {
-    font-size: 40px;
-    color: darkkhaki;
+#navbar a:hover {
+    background: white;
+    color: crimson;
+}
+
+#logo {
+    display: flex;
+    margin-top: 0.4%;
+    margin-left: 46%;
+
 }
