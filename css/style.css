@@ -31,6 +31,10 @@
     text-decoration: none;
 }
 
+#itemtext {
+    line-height: 28px;
+}
+
 
 .main {
     background-color: white;
